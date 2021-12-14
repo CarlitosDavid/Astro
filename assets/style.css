@@ -86,7 +86,7 @@
 
 .stars{
     background: #000 url(stars.png) repeat top center;
-    z-index: 0;
+    z-index: -1;
 }
 
 .button{
@@ -106,6 +106,6 @@
         display: block;
         position: relative;
         z-index: auto;
-    }
+    
 
 }
