@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="assets/style.css" />
-    <title>Astro</title>
-  </head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="css/style.css">
       </head>
      
   <body>
-  
     <div class="stars"></div>
-  
-    <header class="jumbotron">
-      <div class=title>
+<!--Navigation-->
+  <div class="w3-bar w3-black">
+    <span class="branding w3-bar-item w3-mobile">ASTRO-SCOPE</span>
+    <span class="w3-right w3-mobile">
+      <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#">Home</a>
+      <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#about">About</a>
+      <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#services">Services</a>
+      <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#contact">Contact</a>
+    </span>    
+  </div>
+</body>
+</html>  
+  <section class="showcase">
+    <div class="w3-container w3-center">
+  <header class="jumbotron">
+    <div class=title>
       <h1 class="display">ASTRO-SCOPE</h1>
-      <p class="lead">Find "you" in the stars</p>
-     <div id="currentDay"></div>
-    </header>
+    <p class="lead">Find "you" in the stars</p>
+    <div id="currentDay"></div>
+  </header>
 
-    <form method="POST" enctype="multipart/form-data" id="fileUploadForm">
-      <input type="text" name="extraField"/><br/><br/>
-      <input type="file" name="files"/><br/><br/>
-      <input type="file" name="files"/><br/><br/>
-      <input type="submit" value="Submit" id="btnSubmit"/>
-   </form>
+  <form>
+      <div class="entry">
+      Date of Birth:<br><input type="date">
+      <br>
+      City:<br><input type="text">
+      <br>
+      State:<br><input type="text">
+      <br>
+  </form>
+  
+      <script src="./js/script.js"></script>  
 
-   <h1>Ajax Post Result</h1>
-   <span id="result"></span>
-   
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
-    <script src="assets/homepage.js"></script>
-    <script src="assets/return.js"></script>
   </body>
   
 </html>
