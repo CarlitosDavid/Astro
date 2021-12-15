@@ -2,13 +2,14 @@ var form = $('#fileUploadForm')[0];
 
 var data = new FormData(form);
 
+
 $.ajax({
-    type: "POST",
-    enctype: 'multipart/from-data',
-    processData: false, 
-    contentType: false, 
-    cache: false, 
-});
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=aries&day=today',
+    success:function(data){
+    console.log(data);
+    }
+     });
 
 $(document).ready(function () {
 
