@@ -7,7 +7,7 @@ $('#submit').on('click', function() {
 
     var signis;
 
- if(month === 3 && day >=21)
+  if(month === 3 && day >=21)
   signis="Aries";
 
   else if(month===4 && day <=19)
