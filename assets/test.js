@@ -1,13 +1,5 @@
-$.ajax({
-    type:'POST',
-    url:'https://aztro.sameerkumar.website?sign=aries&day=today',
-    success:function(data){
-    console.log(data);
-    }
-     });
 
-
-$('#submit').on('click', function(){
+$('#submit').on('click', function() {
     var date = new Date($('#date-input').val());
     day = date.getDate() + 1;
     month = date.getMonth() + 1;  
@@ -87,5 +79,11 @@ $('#submit').on('click', function(){
   else if(month===3 && day <=20)
   signis="Pisces";
   
-  var getgp = document.getElementById('yourHoro');
-  signis = "Your Sign is: " + signis;
+    var getgp = document.getElementById('yourHoro');
+    signis = "Your Sign is: " + signis;
+
+    getgp.innerHTML = signis;
+
+  
+});
+  
