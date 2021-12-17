@@ -1,3 +1,15 @@
+var url = "http://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&lang=en&jsonp=?";
+var getQuote = function(data) {
+    $(".quote-text").text(data.quoteText);
+    console.log(jQuery.isEmptyObject({data}));
+  };
+  $(document).ready(function() {
+    $.getJSON(url, getQuote, 'jsonp');
+});
+
+
+
+
 
 $('#submit').on('click', function() {
     var date = new Date($('#date-input').val());
@@ -86,4 +98,13 @@ $('#submit').on('click', function() {
 
   
 });
-  
+
+$.ajax({
+    type:'POST',
+    url:'https://aztro.sameerkumar.website?sign=aries&day=today',
+    success:function(data){
+    console.log(data);
+    }
+     });
+
+

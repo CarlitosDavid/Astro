@@ -9,9 +9,9 @@
   </head>
      
   <body>
+    <!--Navigation-->
     <div class="stars"></div>
-<!--Navigation-->
-  <div class="w3-bar w3-black">
+   <div class="w3-bar w3-black">
     <span class="branding w3-bar-item w3-mobile">ASTRO-SCOPE</span>
     <span class="w3-right w3-mobile">
       <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#">Home</a>
@@ -19,25 +19,28 @@
       <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#services">Services</a>
       <a class="w3-bar-item w3-button w3-mobile w3-hover-red" href="#contact">Contact</a>
     </span>    
-  </div>
-</body>
-</html>  
-  <section class="showcase">
-    <div class="w3-container w3-center">
-      <header class="jumbotron">
-        <div class=title>
-          <h1 class="display">ASTRO-SCOPE</h1>
-        <p class="lead">Find "you" in the stars</p>
-        <div id="currentDay"></div>
-      </header>
+   </div>
+    <section class="showcase">
+      <div class="w3-container w3-center">
+       <header class="jumbotron">
+         <div class=title>
+           <h1 class="display">ASTRO-SCOPE</h1>
+         <p class="lead">Find "you" in the stars</p>
+         <div id="currentDay"></div>
+        </header>
 
+        <div id="aBox">
+          <p class="quote-text" id="quotet"></p>
+          <button type="aButton" id="getHoroscope"
+        </div>
+  
      
         <!-- User selects their DOB -->
-
+  
         Birthday (month and year):
         <input type="date" id="date-input" required />
         <button id="submit">Submit</button>
-
+  
            <p id="yourHoro"></p>
             <p></p> 
             <br>
@@ -56,10 +59,8 @@
             <button type="aButton" class="ZodiacSign" id="sagittarius" >sagittarius</button>
         
       
-  
+      </section>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
       <script src="assets/test.js"></script>  
-
-  </body>
-  
-</html>
+ </body>
+</html>  
