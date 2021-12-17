@@ -15,7 +15,6 @@
     background: -webkit-linear-gradient(rgb(185, 13, 238), rgb(218, 10, 10));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 6px 6px 0px rgba(0,0,0,2);
 
     display: block;
     position: relative;
@@ -34,7 +33,6 @@
     background: -webkit-linear-gradient(rgb(185, 13, 238), rgb(218, 10, 10));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 6px 6px 0px rgba(0,0,0,2);
 
     display: block;
     position: relative;
@@ -66,7 +64,6 @@
     background: -webkit-linear-gradient(rgb(185, 13, 238), rgb(218, 10, 10));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 6px 6px 0px rgba(0,0,0,2);
 
     display: block;
     position: relative;
@@ -85,7 +82,7 @@
 }
 
 .stars{
-    background: #000 url(stars.png) repeat top center;
+    background: #000 url(/assets/images/stars.png) repeat top center;
     z-index: -1;
 }
 
