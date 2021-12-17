@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/style.css">
   </head>
      
   <body>
@@ -31,17 +31,39 @@
         <div id="currentDay"></div>
       </header>
 
-      <form class="card">
-          <div class="entry">
-          Date of Birth:<br><input type="date">
-          <br>
-          City:<br><input type="text">
-          <br>
-          State:<br><input type="text">
-          <br>
-      </form>
+      <div id="aBox">
+        <p class="quote-text" id="quotet"></p>
+      </div>
+        
+
+     
+        <!-- User selects their DOB -->
+
+        Birthday (month and year):
+        <input type="date" id="date-input" required />
+        <button id="submit">Submit</button>
+
+           <p id="yourHoro"></p>
+            <p></p> 
+            <br>
+            <button type="aButton" class="ZodiacSign" id="capricorn" >capricorn</button>
+            <button type="aButton" class="ZodiacSign" id="aquarius" >aquarius</button>
+            <button type="aButton" class="ZodiacSign" id="pisces" >pisces</button>
+            <button type="aButton" class="ZodiacSign" id="aries" >aries</button>
+            <button type="aButton" class="ZodiacSign" id="taurus" >taurus</button>
+            <button type="aButton" class="ZodiacSign" id="gemini" >gemini</button>
+            <p></p>
+            <button type="aButton" class="ZodiacSign" id="cancer" >cancer</button>
+            <button type="aButton" class="ZodiacSign" id="leo" >leo</button>
+            <button type="aButton" class="ZodiacSign" id="virgo" >virgo</button>
+            <button type="aButton" class="ZodiacSign" id="libra" >libra</button>
+            <button type="aButton" class="ZodiacSign" id="scorpio" >scorpio</button>
+            <button type="aButton" class="ZodiacSign" id="sagittarius" >sagittarius</button>
+        
+      
   
-      <script src="assets/js/file.js"></script>  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="assets/test.js"></script>  
 
   </body>
   
