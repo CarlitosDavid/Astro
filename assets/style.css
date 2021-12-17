@@ -117,3 +117,9 @@ p {
     font-style: italic;
     
 }
+ 
+#moredetails {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
